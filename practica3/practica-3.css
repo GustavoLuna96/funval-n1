@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    background-color: rgb(31, 172, 13);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+header {
+    width: 100%; 
+    max-width: 1400px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0; 
+    margin: 0 auto; 
+    z-index: 1000; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 8rem; 
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: blanchedalmond;
+}
+
+.content_box {
+    padding: 2rem;
+}
+
+.hero_text_box {
+    flex: 1;
+    margin-right: 2rem;
+    background-color: blanchedalmond;
+}
+
+.hero_image_box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.hero_text h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: rgb(31, 172, 13);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+body {
+    background-color: rgb(128, 220, 243);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.second_section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.second_section h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.second_section p, .second_section ul {
+    margin: 1rem 0;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.second_section ul {
+    list-style-position: inside;
+}
+
+#beneficios {
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    width: 100%;
+    max-width: 1200px;
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    width: 80%;
+   
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+footer p {
+    margin-top: 0;
+}
+
+main {
+    margin-top: 0;
+}
+
+section {
+    margin-bottom: 0;
+}

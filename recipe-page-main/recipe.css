@@ -44,6 +44,7 @@ img {
 
     background-color:hsl(330, 100%, 98%);
     padding: 1rem;
+    border-radius: 15px;
 }
 
 ul, ol {
@@ -61,11 +62,13 @@ li {
 
 #preparation h3 {
     margin-left: 0.5rem; 
+
 }
 
 #preparation_time{
 
 color:hsl(332, 51%, 32%);
+
 
 }
 

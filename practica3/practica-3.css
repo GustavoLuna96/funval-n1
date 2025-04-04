@@ -5,8 +5,10 @@
 }
 
 img {
-    width: 100%;
-    display: block;
+    width: 200px;
+ position: relative;
+ top: 100px;
+
 }
 
 h1 {
@@ -23,30 +25,36 @@ header {
     width: 100%; 
     max-width: 1400px;
     position: fixed; 
-    top: 0;
+    top: 0px;
     left: 0;
+    
     right: 0; 
     margin: 0 auto; 
     z-index: 1000; 
     padding: 0; 
-    box-sizing: border-box; 
+    
+    gap: 55px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .nav {
-    background-color: black;
+    background-color: #3A3D37;
     color: white;
-    padding: 1rem;
-    text-align: center;
+    padding: 1.3rem;
+   position: absolute;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     width: 100%; 
     max-width: 1200px; 
-    margin: 0 auto; 
+    margin-top: 100px;
+    margin-left: 100px;
+
 }
 
 .nav a {
     color: white;
-    margin: 0 10px;
+    margin: 1rem 2rem;
     text-decoration: none;
 }
 
@@ -69,21 +77,23 @@ header {
     padding: 2rem;
 }
 
-.hero_text_box {
+.containerFirstParagraph{
     flex: 1;
     margin-right: 2rem;
     background-color: blanchedalmond;
+    padding: 2rem;
 }
 
-.hero_image_box {
+.firstSectionPic {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
+    padding: 2rem;
 }
 
-.hero_text h2 {
+.firstParagraphText h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -112,6 +122,7 @@ body {
 .second_section {
     padding: 2rem;
     background-color: #f9f9f9;
+    
 }
 
 .second_section h2 {
@@ -159,4 +170,9 @@ main {
 
 section {
     margin-bottom: 0;
+}
+
+p{
+
+    font-size: 1.5rem;
 }

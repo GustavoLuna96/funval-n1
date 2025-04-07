@@ -68,15 +68,38 @@ display: flex;
 
 }
 
-.first section{
+.section{
 
 display: flex;
 
+border-radius: 15px;
+height: 300px;
+padding: 0.1em;
 }
 
 .box {
 
+    border: solid 5px green;
+    border-radius: 15px;
+    width: 50%;
+    height: 100%;
 
-    
 }
 
+.first, .second {
+
+    border: solid 5px rgb(42, 120, 223);
+}
+
+.first {
+
+    margin-bottom: 0.1em;
+}
+
+main {
+
+    border: solid 5px orange;
+    border-radius: 15px;
+    padding: 0.1em;
+
+}

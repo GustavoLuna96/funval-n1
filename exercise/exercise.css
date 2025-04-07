@@ -7,7 +7,7 @@
 
 header {
 
-border: solid 5px blue;
+border: solid 10px blue;
 
     height: 80px;
     padding-bottom: 2px;
@@ -18,7 +18,7 @@ border: solid 5px blue;
 
 .navLinks {
 
-    border: solid 5px orange;
+    border: solid 10px orange;
    display: flex;
    
         height: 100%;
@@ -30,7 +30,7 @@ border: solid 5px blue;
 
 .head {
 
-border: solid 5px green;
+border: solid 10px green;
 margin: 2px;
 height: 100%;
 width: 20%;
@@ -55,7 +55,7 @@ display: flex;
 
 .link {
 
-    border: solid 5px red;
+    border: solid 10px red;
     display: flex;
     align-items: center;
    
@@ -71,25 +71,34 @@ display: flex;
 .section{
 
 display: flex;
-
+border: solid 10px rgb(42, 120, 223);
 border-radius: 15px;
 height: 300px;
 padding: 0.1em;
+
 }
 
 .box {
 
-    border: solid 5px green;
+    border: solid 10px green;
     border-radius: 15px;
     width: 50%;
     height: 100%;
+    
 
 }
 
-.first, .second {
+.one, .three {
 
-    border: solid 5px rgb(42, 120, 223);
+    margin-right: 0.05em;
 }
+
+.two, .three{
+
+    margin-left: 0.05em;
+    
+}
+
 
 .first {
 
@@ -98,7 +107,7 @@ padding: 0.1em;
 
 main {
 
-    border: solid 5px orange;
+    border: solid 10px orange;
     border-radius: 15px;
     padding: 0.1em;
 

@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Repaso de Tailwind responsivo</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- <link rel="stylesheet" href="tailwind.css"> -->
 </head>
-<body>
+<body class="h-screen">
 
-    <h1 class="">Tailwindcss</h1>
-    <h2 class="text-red-500 font-bold text-[50px]">Rojo</h2>
-    <h2 class="text-blue-400">Azul</h2>
-    <h2 class="text-[#00ff00]">Verde</h2>
-    <h2 class="bg-[#bddd06]">Amarillo</h2>
-   
+<header class="border-4 border-red-500 h-[10%]"></header>
+<main class="border border-blue-500 h-full md-hidden"></main>
 
-    <section class="border-2 border-#33bb01 border-dashed">
 
-        <div class="w-14 h-14 bg-blue-500 m-"></div>
-        <div></div>
-        <div></div>
-    </section>
+<div class="h-[100px] w-[300px] bg-purple-500 border"></div>
+
+<div class="h-[100px] w-[300px] bg-purple-500 border"></div>
+
+<div class="h-[100px] sm:h-[40%] md:h-[100px] w-[300px] md:w-1/2 bg-purple-500 border md:ml-auto sm:hidden"></div>
+
+<div class="h-[100px] sm:h-[40%] md:h-[100px] w-[300px] md:w-1/2 bg-purple-500 border md:ml-auto hidden sm:block"></div>
+
+<footer class="border-4 border-green-500 h-[20%]"></footer>
 </body>
+
+
 </html>
